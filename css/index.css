@@ -1,0 +1,51 @@
+body{
+	margin:0;
+	overflow-x:hidden;
+	overflow-y:auto;
+	background-color:#D9B19C;
+}
+h1{
+	margin:0;
+}
+
+/* picture 2x2 */
+#gallery {
+	background-color:#D9B19C;
+ 	float:left;
+  	display: grid;
+  	grid-template-columns: repeat(2,50%);
+  	overflow:hidden;
+  	margin:0;
+}
+#gallery img{
+    	max-width: 100%;
+    	height: auto; 	
+}
+#gallery img:hover{
+	filter:brightness(80%);
+}
+
+
+.imageContainer {
+	position: relative;
+	margin:0;
+}
+
+.imageText {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+  	font-size: 32px;
+  	font-weight: bold;
+  	text-align: center;
+	background-color: white;
+ 	background-color: rgba(0, 0, 0, 0.7);
+  	padding: 10px;
+  	border-radius: 5px;
+}
+
+h3{
+	padding-left:40px;
+}

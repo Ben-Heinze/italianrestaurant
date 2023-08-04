@@ -1,0 +1,135 @@
+/*
+tan: #D9B19C
+brown: #856D43
+olive green: #46592A
+darker green: #313D1D
+black: black
+blue: #2B78E4
+*/
+body{
+	background-color:#D9B19C;
+	font-family: 'Borel', cursive;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	font-size:16px;
+}
+/* top logo is the horizontal logo*/
+#toplogo{
+	background-color:#313D1D;
+	border-bottom: 3px solid #46592A;
+	padding-top:10px;
+}
+#toplogo img{
+	display:block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+	height:auto;
+}
+header{
+	overflow:hidden;
+	background-color:#313D1D;
+	color: black;
+	width:100%;
+	max-height:80px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border-bottom: 3px solid #46592A;
+}
+
+a{
+	padding-top:20px;
+	font-family: 'Borel', cursive;
+	color:#2B78E4;
+	text-decoration: none;
+}
+a:active{
+	color:#2B78E4;
+
+}
+
+/*....TOP BANNER LEFT...........................*/
+#restuarantLogoContainer{
+	justify-content:flex-start;
+
+}
+#restuarantLogoContainer img{
+	width:auto;
+	height:60px;
+}
+
+b{
+	font-weight: bolder;
+}
+
+
+/*....TOP BANNER CENTER...........................*/
+
+#navigation{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#navigation li{
+	font-size: 24px;
+	padding: 8px;
+	margin: 0 10px;
+}
+
+/*...TOP BANNER RIGHT....................*/
+
+#socialMediaLogos{
+	margin-left:100px;
+	display:flex;
+	align-items:center;
+	float:right;
+}
+#socialMediaLogos img{
+	margin-right: 5px;
+	float:right;
+	width:auto;
+	height:30px;
+}
+
+/*=======FOOTER=============================*/
+#footer{
+	flex: 0 1 30px;
+	border-top: 3px solid #46592A;
+	margin:0;
+	display:flex;
+	position:static;
+	bottom:0;
+	overflow:hidden;
+	background-color:#313D1D;
+	width:100%;
+	min-height:100px;
+	align-items:center;
+	justify-content: space-between;
+	flex-wrap:wrap;
+
+}
+h3{
+	flex: 0 0 100%;
+	margin:0;
+	color:#2B78E4;
+}
+
+#footer p{
+	flex: 0 0 100%;
+	font-size:16px;
+	color:#2B78E4;
+	margin:0;
+	padding-right:20px;
+}
+
+
+
+
